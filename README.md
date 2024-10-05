@@ -4,8 +4,6 @@
 
 ### さくらのクラウドのaccessトークンを設定する
 
-環境変数
-
 ```
 SAKURACLOUD_ACCESS_TOKEN=""
 SAKURACLOUD_ACCESS_TOKEN_SECRET=""
@@ -17,8 +15,17 @@ SAKURACLOUD_ACCESS_TOKEN_SECRET=""
 module "hoge" {
 	module = "masakaya/terraform-acms-module/sakura@latest"
 
-...
-
+     ...
 }
-
 ```
+
+## commit rule
+
+https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines
+
+
+| タイプ  | 説明               |
+| ------- | ------------------ |
+| perf    | メジャーバージョンアップ |
+| feat    | マイナーバージョンアップ |
+| fix     | パッチバージョンアップ   |
