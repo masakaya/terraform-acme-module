@@ -7,8 +7,13 @@ SAKURACLOUD_ACCESS_TOKEN=""
 SAKURACLOUD_ACCESS_TOKEN_SECRET=""
 
 ### Usage
+
+```
 module "hoge" {
 	module = "masakaya/terraform-acms-module/sakura@latest"
 
+...
 
 }
+
+```
